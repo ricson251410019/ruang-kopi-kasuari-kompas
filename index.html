@@ -4,375 +4,313 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#173d2b">
-
-  <title>Ruang Kopi Kasuari KOMPAS</title>
-  <meta name="description" content="Ruang Kopi Kasuari KOMPAS — Menjaga Cendrawasih, Menjaga Masa Depan Papua. Ruang diskusi, kepedulian, dan harapan.">
-
-  <!-- PRATINJAU LINK WHATSAPP, FACEBOOK, DAN MEDIA SOSIAL -->
+  <meta name="theme-color" content="#173c30">
+  <meta name="description" content="Hasil diskusi Ruang Kopi Kasuari KOMPAS: Menjaga Cendrawasih KOMPAS. Moderator Ekianus.">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Ruang Kopi Kasuari KOMPAS">
   <meta property="og:title" content="Ruang Kopi Kasuari KOMPAS">
-  <meta property="og:description" content="Menjaga Cendrawasih, Menjaga Masa Depan Papua. Simak cerita dan hasil diskusi KOMPAS.">
-  <meta property="og:url" content="https://ricson251410019.github.io/ruang-kopi-kasuari-kompas/">
+  <meta property="og:description" content="Menjaga Cendrawasih KOMPAS — memperkuat persaudaraan, kepedulian, dan kesadaran bersama.">
   <meta property="og:image" content="https://ricson251410019.github.io/ruang-kopi-kasuari-kompas/foto-diskusi.jpg">
-  <meta property="og:image:alt" content="Foto diskusi Ruang Kopi Kasuari KOMPAS">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:url" content="https://ricson251410019.github.io/ruang-kopi-kasuari-kompas/">
+  <title>Ruang Kopi Kasuari KOMPAS</title>
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    :root {
+      --hijau: #173c30;
+      --hijau-muda: #285846;
+      --krem: #f6f1e5;
+      --emas: #c7a65b;
+      --teks: #26352d;
+      --putih: #fffdf7;
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
 
     body {
+      margin: 0;
+      background: var(--krem);
+      color: var(--teks);
       font-family: Georgia, "Times New Roman", serif;
-      background: #f6f0e4;
-      color: #253629;
-      line-height: 1.8;
+      line-height: 1.85;
     }
 
     header {
-      background: #173d2b;
-      color: #fff7e8;
       padding: 18px 7%;
+      background: var(--hijau);
+      color: var(--putih);
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
       gap: 12px;
+      flex-wrap: wrap;
     }
 
     .brand {
-      font-size: 17px;
+      font-size: 1rem;
       font-weight: bold;
-      letter-spacing: 1px;
-    }
-
-    .brand span {
-      display: block;
-      color: #dfbd70;
-      font-size: 11px;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
     }
 
     nav {
       display: flex;
-      gap: 18px;
+      gap: 16px;
       flex-wrap: wrap;
     }
 
     nav a {
-      color: #fff7e8;
+      color: var(--putih);
       text-decoration: none;
-      font-family: Arial, sans-serif;
-      font-size: 13px;
-    }
-
-    nav a:hover {
-      color: #dfbd70;
+      font-size: .88rem;
     }
 
     .hero {
-      min-height: 490px;
-      padding: 75px 8%;
-      display: flex;
-      align-items: center;
-      background:
-        linear-gradient(90deg, rgba(13,40,27,.94), rgba(13,40,27,.48)),
-        url("foto-diskusi.jpg") center/cover no-repeat;
-      color: white;
-    }
-
-    .hero-content {
-      max-width: 730px;
+      background: var(--hijau);
+      color: var(--putih);
+      padding: 65px 7% 75px;
+      text-align: center;
+      border-bottom: 5px solid var(--emas);
     }
 
     .eyebrow {
-      color: #e5c77e;
-      font-family: Arial, sans-serif;
-      font-size: 12px;
-      letter-spacing: 4px;
+      color: var(--emas);
+      letter-spacing: 3px;
       text-transform: uppercase;
-    }
-
-    h1 {
-      font-size: clamp(36px, 7vw, 64px);
-      line-height: 1.15;
-      margin: 18px 0;
-    }
-
-    .hero p {
-      max-width: 570px;
-      color: #f0eadc;
-      font-size: 17px;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 12px 23px;
-      background: #dfbd70;
-      color: #173d2b;
-      border-radius: 4px;
-      text-decoration: none;
-      font-family: Arial, sans-serif;
+      font-size: .76rem;
       font-weight: bold;
     }
 
-    section {
-      padding: 65px 8%;
+    h1 {
+      font-size: clamp(2.1rem, 7vw, 4.2rem);
+      line-height: 1.15;
+      margin: 18px auto;
+      max-width: 900px;
     }
 
+    .hero p {
+      max-width: 680px;
+      margin: 15px auto;
+      color: #e6e9df;
+    }
+
+    .moderator {
+      display: inline-block;
+      border: 1px solid var(--emas);
+      border-radius: 30px;
+      padding: 7px 18px;
+      margin-top: 14px;
+      font-size: .9rem;
+    }
+
+    .hero-photo {
+      display: block;
+      width: 100%;
+      max-width: 900px;
+      max-height: 520px;
+      object-fit: cover;
+      margin: 35px auto 0;
+      border: 3px solid var(--emas);
+      border-radius: 12px;
+    }
+
+    main {
+      width: min(900px, 88%);
+      margin: 45px auto;
+    }
+
+    section { margin-bottom: 50px; }
+
     .section-label {
-      color: #99762d;
-      font-family: Arial, sans-serif;
-      font-size: 11px;
-      letter-spacing: 3px;
+      color: #8b7136;
+      font-size: .78rem;
+      font-weight: bold;
+      letter-spacing: 2px;
       text-transform: uppercase;
     }
 
     h2 {
-      color: #173d2b;
-      font-size: clamp(27px, 4vw, 39px);
+      color: var(--hijau);
+      font-size: clamp(1.55rem, 4vw, 2.15rem);
       line-height: 1.3;
-      margin: 10px 0 20px;
+      margin-top: 8px;
     }
 
-    .intro {
-      max-width: 760px;
-      margin-bottom: 30px;
+    h3 {
+      color: var(--hijau);
+      font-size: 1.25rem;
+      margin-top: 0;
     }
 
-    .quote {
-      border-left: 4px solid #c5a252;
-      padding: 20px 24px;
-      margin-top: 28px;
-      background: #fffaf0;
-      font-size: 19px;
-      font-style: italic;
-    }
-
-    .speakers {
-      background: #eae4d6;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 18px;
-      margin-top: 30px;
-    }
-
-    .card {
-      background: #fffaf0;
+    .participant {
+      background: var(--putih);
+      border-left: 4px solid var(--emas);
+      border-radius: 5px 12px 12px 5px;
       padding: 25px;
-      border-radius: 8px;
-      border-top: 3px solid #c5a252;
-      box-shadow: 0 5px 18px rgba(23,61,43,.06);
+      margin: 20px 0;
+      box-shadow: 0 5px 18px #173c300b;
     }
 
-    .card h3 {
-      color: #173d2b;
-      font-size: 21px;
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      font-size: 15px;
-    }
+    .participant p:last-child { margin-bottom: 0; }
 
     .conclusion {
-      background: #173d2b;
-      color: #f6f0e4;
-      text-align: center;
+      background: #e8e4d5;
+      border-radius: 12px;
+      padding: 28px;
     }
 
-    .conclusion h2 {
-      color: #f6f0e4;
-    }
-
-    .conclusion .section-label {
-      color: #dfbd70;
-    }
-
-    .conclusion p {
-      max-width: 760px;
-      margin: 0 auto 16px;
+    blockquote {
+      margin: 20px 0;
+      padding: 25px;
+      border-left: 5px solid var(--emas);
+      background: var(--hijau);
+      color: var(--putih);
+      font-size: 1.3rem;
+      line-height: 1.6;
     }
 
     .closing {
-      color: #dfbd70;
-      font-size: 22px;
-      font-style: italic;
-      margin-top: 28px;
+      text-align: center;
+      padding: 30px 0;
     }
 
     footer {
-      padding: 25px 7%;
-      background: #102b1e;
-      color: #d7d8cb;
+      background: var(--hijau);
+      color: #e6e9df;
       text-align: center;
-      font-family: Arial, sans-serif;
-      font-size: 12px;
+      padding: 30px 7%;
+      font-size: .9rem;
     }
 
+    footer strong { color: var(--emas); }
+
     @media (max-width: 600px) {
-      header {
-        padding: 17px 6%;
-      }
-
-      nav {
-        gap: 12px;
-      }
-
-      .hero {
-        min-height: 430px;
-        padding: 60px 7%;
-      }
-
-      .hero p {
-        font-size: 15px;
-      }
-
-      section {
-        padding: 48px 7%;
-      }
+      header { justify-content: center; text-align: center; }
+      nav { justify-content: center; }
+      .hero { padding: 45px 6%; }
+      main { width: 90%; margin: 32px auto; }
+      .participant, .conclusion { padding: 20px; }
     }
   </style>
 </head>
 
 <body>
-  <header>
-    <div class="brand">
-      RUANG KOPI KASUARI
-      <span>KOMPAS</span>
+<header>
+  <div class="brand">RUANG KOPI KASUARI</div>
+  <nav>
+    <a href="#pembukaan">Pembukaan</a>
+    <a href="#pendapat">Pendapat</a>
+    <a href="#kesimpulan">Kesimpulan</a>
+    <a href="#penutup">Pesan Penutup</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="eyebrow">Ruang Bertukar Pikiran & Persaudaraan</div>
+  <h1>Menjaga Cendrawasih KOMPAS</h1>
+  <p>Hasil Diskusi Ruang Kopi Kasuari KOMPAS</p>
+  <div class="moderator">Moderator: Ekianus</div>
+  <img class="hero-photo" src="foto-diskusi.jpg"
+       alt="Dokumentasi diskusi Ruang Kopi Kasuari KOMPAS"
+       onerror="this.style.display='none'">
+</div>
+
+<main>
+  <section id="pembukaan">
+    <div class="section-label">Bagian I</div>
+    <h2>Pembukaan dan Topik Diskusi</h2>
+    <p>Diskusi <em>Ruang Kopi Kasuari KOMPAS</em> kali ini mengangkat tema <strong>“Menjaga Cendrawasih KOMPAS.”</strong> Diskusi ini membahas pentingnya peran senior, keluarga angkatan, dan kesadaran pribadi dalam menjaga, membimbing, serta melindungi sesama anggota, khususnya Cendrawasih KOMPAS yang berada jauh dari keluarga dan orang tua.</p>
+    <p>Selain itu, diskusi ini menekankan pentingnya menjaga nama baik bersama, menerapkan nilai-nilai adat dan budaya, serta memberikan ruang bagi setiap anggota untuk berkembang dan meraih masa depan yang lebih baik.</p>
+  </section>
+
+  <section id="pendapat">
+    <div class="section-label">Bagian II</div>
+    <h2>Pendapat Para Peserta Diskusi</h2>
+
+    <article class="participant">
+      <h3>1. Pendapat Milon</h3>
+      <p>Menurut Milon, setiap angkatan memiliki tanggung jawab dan kewenangan untuk ikut menjaga serta melindungi Cendrawasih KOMPAS. Setiap angkatan perlu mengambil peran dalam membimbing dan mengingatkan anggotanya agar tetap berada di jalan yang baik.</p>
+      <p>Namun, semuanya kembali kepada pribadi masing-masing. Setiap individu harus mampu membedakan mana yang baik dan mana yang buruk. Pada akhirnya, kesadaran diri sangat penting karena setiap orang bertanggung jawab atas pilihan dan tindakan yang diambilnya.</p>
+    </article>
+
+    <article class="participant">
+      <h3>2. Pendapat Maleo</h3>
+      <p>Menurut Maleo, menjaga Cendrawasih KOMPAS membutuhkan arahan, pembinaan, dan ketegasan dari para senior. Senioritas dalam hal ini harus dimaknai sebagai tanggung jawab untuk membimbing junior, bukan sekadar menunjukkan kekuasaan.</p>
+      <p>Senior memiliki peran untuk mengingatkan dan mengarahkan junior agar tidak melakukan hal-hal yang dapat merugikan diri sendiri, terjerumus dalam pergaulan yang tidak sehat, salah mengambil keputusan, atau mengabaikan pendidikan dan masa depan.</p>
+      <p>Kedua, setiap angkatan memiliki tanggung jawab untuk saling menjaga karena angkatan merupakan keluarga kedua di tanah rantau. Hubungan ini merupakan ikatan persaudaraan yang membuat setiap anggota harus saling memperhatikan, memberikan nasihat, dan mengingatkan satu sama lain apabila ada hal yang berpotensi merugikan diri sendiri maupun nama baik bersama.</p>
+      <p>Ketiga, nilai-nilai adat dan budaya harus tetap dijaga, dihormati, dan diterapkan dalam kehidupan sehari-hari. Di tengah perkembangan zaman modern, kita tidak boleh melupakan identitas dan nilai-nilai budaya yang diwariskan oleh para leluhur. Adat dan budaya merupakan bagian penting dari kehidupan yang harus dipertahankan dan diwariskan kepada generasi berikutnya.</p>
+      <p>Terakhir, Maleo menegaskan bahwa semua bentuk pembinaan harus kembali kepada kesadaran pribadi masing-masing. Senior dan keluarga angkatan dapat memberikan arahan, tetapi setiap individu tetap memiliki tanggung jawab untuk menentukan pilihan yang baik bagi dirinya.</p>
+    </article>
+
+    <article class="participant">
+      <h3>3. Pendapat Paskalis</h3>
+      <p>Menurut Paskalis, setiap angkatan memiliki tanggung jawab besar untuk menjaga dan memperhatikan satu sama lain. Hal ini karena angkatan bukan hanya sekadar kelompok pertemanan, melainkan keluarga kedua selama berada di tanah rantau.</p>
+      <p>Oleh karena itu, setiap anggota harus memiliki kepedulian terhadap keadaan sesama. Jika ada anggota yang menghadapi masalah atau membutuhkan bantuan, anggota lainnya harus hadir untuk memberikan dukungan dan nasihat.</p>
+      <p>Dengan demikian, rasa persaudaraan harus diwujudkan melalui tindakan nyata, bukan hanya melalui kata-kata. Saling menjaga dan memperhatikan merupakan salah satu cara untuk mencegah terjadinya hal-hal yang tidak diinginkan.</p>
+    </article>
+
+    <article class="participant">
+      <h3>4. Pendapat Roy</h3>
+      <p>Menurut Roy, keluarga satu angkatan memiliki hak dan tanggung jawab untuk saling mengingatkan. Apabila ada anggota yang terlalu bebas dalam pergaulan atau mulai mengabaikan pendidikan, tanggung jawab, dan masa depannya, anggota lain perlu menunjukkan rasa empati serta memberikan teguran yang membangun.</p>
+      <p>Teguran tersebut bukan bertujuan untuk menjatuhkan atau mempermalukan seseorang, melainkan untuk membantu agar ia dapat menyadari kesalahannya dan memperbaiki diri.</p>
+      <p>Roy juga menyampaikan bahwa pembentukan karakter telah dimulai sejak kegiatan malam keakraban (makrab), melalui didikan, arahan, dan aturan yang diberikan. Namun, hasil dari pembinaan tersebut tetap bergantung pada kesadaran dan kemauan pribadi masing-masing.</p>
+      <p>Oleh sebab itu, setiap anggota harus mampu menerapkan nilai-nilai yang telah diajarkan serta menjaga dirinya sendiri. Keluarga angkatan perlu terus membangun kebersamaan, kepedulian, dan kebiasaan untuk saling mengingatkan demi kebaikan bersama.</p>
+    </article>
+
+    <article class="participant">
+      <h3>5. Pendapat Kakak Nis</h3>
+      <p>Menurut Kakak Nis, menjaga Cendrawasih KOMPAS bukan berarti membatasi mereka untuk terbang tinggi dan meraih cita-cita. Sebaliknya, kita memiliki tanggung jawab untuk menjaga dan melindungi mereka agar tetap memiliki kesempatan untuk berkembang serta mencapai masa depan yang lebih baik.</p>
+      <p>Kakak Nis menggunakan perumpamaan tentang Cendrawasih dan Kasuari untuk menggambarkan pentingnya perlindungan, tanggung jawab, dan hubungan persaudaraan. Ungkapan <strong>“Cendrawasih KOMPAS untuk Kasuari KOMPAS”</strong> menjadi pengingat akan pentingnya saling menjaga dan melindungi dalam kehidupan bersama.</p>
+      <p>Ia juga menegaskan bahwa laki-laki harus mampu menjadi panutan yang baik bagi perempuan. Kita perlu memberikan ruang, kesempatan, motivasi, dan dukungan kepada mereka agar dapat menunjukkan kemampuan, mengembangkan potensi, serta meraih cita-cita.</p>
+      <p>Menurutnya, kita harus mampu membedakan hal-hal yang perlu diingatkan dan hal-hal baik yang harus didukung. Perilaku yang berpotensi merugikan perlu diarahkan dengan bijaksana, sedangkan kegiatan yang bermanfaat harus diberikan ruang untuk berkembang.</p>
+      <p>Kakak Nis menekankan bahwa perempuan juga memiliki kemampuan, hak, dan kesempatan untuk maju. Karena itu, kita harus memberikan dukungan dan motivasi, bukan memadamkan semangat mereka.</p>
+      <p>Pada akhirnya, menjaga Cendrawasih KOMPAS berarti melakukan hal-hal yang baik bagi mereka, membantu mereka berkembang, dan memastikan bahwa kebersamaan menjadi sumber kekuatan untuk menghadapi kehidupan di tanah rantau.</p>
+    </article>
+
+    <article class="participant">
+      <h3>6. Pendapat Abi</h3>
+      <p>Menurut Abi, berbagai persoalan dalam kehidupan angkatan dapat dibicarakan dan diatasi bersama melalui komunikasi, arahan, dan kesepakatan.</p>
+      <p>Namun, menurutnya, terdapat hal-hal yang bersifat pribadi, seperti persoalan cinta dan pilihan makanan, yang tidak dapat sepenuhnya diatur oleh orang lain. Hal tersebut kembali kepada keputusan dan tanggung jawab masing-masing individu.</p>
+      <p>Pendapat ini menegaskan bahwa keluarga angkatan perlu memahami batas antara kepedulian bersama dan kebebasan pribadi. Anggota boleh memberikan nasihat dan mengingatkan, tetapi keputusan pribadi tetap harus dihormati selama tidak merugikan orang lain.</p>
+      <p>Dengan demikian, menjaga sesama bukan berarti mengendalikan seluruh kehidupan mereka, melainkan memberikan dukungan dan arahan agar setiap individu mampu mengambil keputusan secara bijaksana.</p>
+    </article>
+
+    <article class="participant">
+      <h3>7. Pendapat Temianus</h3>
+      <p>Menurut Temianus, pengawasan dan perhatian dari keluarga merupakan hal yang sangat baik dalam membantu seseorang menjaga perilaku dan mengambil keputusan yang tepat.</p>
+      <p>Namun, ketika seseorang berada jauh dari orang tua atau keluarga, pengawasan secara langsung menjadi lebih terbatas. Kondisi tersebut dapat menjadi tantangan, terutama apabila seseorang belum memiliki kesadaran diri dan kemampuan untuk mengendalikan perilakunya.</p>
+      <p>Oleh karena itu, kehidupan di tanah rantau membutuhkan kedewasaan, tanggung jawab, dan kemampuan untuk menjaga diri sendiri. Setiap individu harus mampu membedakan hal yang baik dan buruk meskipun tidak selalu berada dalam pengawasan orang tua.</p>
+      <p>Dalam situasi seperti ini, keluarga angkatan memiliki peran penting sebagai lingkungan pendukung. Melalui perhatian, nasihat, dan kepedulian, setiap anggota dapat saling membantu agar tidak kehilangan arah dan tetap fokus pada pendidikan, masa depan, serta nilai-nilai yang telah diajarkan oleh keluarga.</p>
+    </article>
+  </section>
+
+  <section id="kesimpulan">
+    <div class="section-label">Bagian III</div>
+    <h2>Kesimpulan Hasil Diskusi</h2>
+    <div class="conclusion">
+      <p>Berdasarkan seluruh pendapat yang disampaikan, dapat disimpulkan bahwa <strong>menjaga Cendrawasih KOMPAS merupakan tanggung jawab bersama yang harus dilandasi oleh persaudaraan, kepedulian, pembinaan, penghormatan terhadap adat dan budaya, serta kesadaran pribadi.</strong></p>
+      <p>Setiap angkatan merupakan keluarga kedua di tanah rantau. Oleh karena itu, seluruh anggota harus saling memperhatikan, membantu, dan mengingatkan ketika ada anggota yang menghadapi kesulitan atau mulai mengambil keputusan yang dapat merugikan dirinya sendiri.</p>
+      <p>Senior juga memiliki tanggung jawab untuk memberikan teladan, arahan, dan pembinaan kepada junior. Akan tetapi, pembinaan harus dilakukan dengan bijaksana, penuh rasa hormat, dan tidak bertujuan untuk mengendalikan kehidupan pribadi secara berlebihan.</p>
+      <p>Di samping itu, setiap individu harus memiliki kesadaran untuk membedakan hal yang baik dan buruk. Pengawasan dari orang tua, senior, dan keluarga angkatan sangat penting, tetapi tidak dapat menggantikan tanggung jawab pribadi.</p>
+      <p>Nilai-nilai adat dan budaya juga harus terus dijaga sebagai bagian dari identitas dan warisan leluhur. Dalam kehidupan modern, nilai-nilai tersebut harus tetap dihormati dan diterapkan secara bijaksana.</p>
+      <p>Khusus dalam menjaga Cendrawasih KOMPAS, setiap anggota harus mampu memberikan perlindungan sekaligus kesempatan untuk berkembang. Perempuan harus memperoleh dukungan, motivasi, dan ruang yang setara untuk belajar, berkarya, serta meraih cita-cita. Menjaga bukan berarti mengekang, melainkan mendampingi dan mengarahkan agar setiap orang dapat tumbuh menjadi pribadi yang lebih baik.</p>
+      <p>Pada akhirnya, kepedulian harus diwujudkan melalui tindakan nyata. Setiap anggota perlu berani mengingatkan dengan cara yang baik, menerima nasihat dengan pikiran terbuka, menghormati pilihan pribadi, dan bertanggung jawab atas tindakannya sendiri.</p>
     </div>
+  </section>
 
-    <nav>
-      <a href="#tentang">Tentang</a>
-      <a href="#diskusi">Diskusi</a>
-      <a href="#kesimpulan">Kesimpulan</a>
-    </nav>
-  </header>
+  <section id="penutup" class="closing">
+    <div class="section-label">Bagian IV</div>
+    <h2>Pesan Penutup</h2>
+    <blockquote>“Menjaga Cendrawasih KOMPAS bukan berarti mematahkan sayapnya, melainkan menjaganya agar mampu terbang tinggi menuju masa depan yang lebih baik.”</blockquote>
+    <p>Kasuari KOMPAS dan Cendrawasih KOMPAS adalah bagian dari persaudaraan yang harus saling mendukung. Ketika satu anggota menghadapi kesulitan, anggota lainnya harus hadir. Ketika ada yang mulai kehilangan arah, keluarga angkatan harus mengingatkan. Ketika ada yang memiliki potensi dan cita-cita, keluarga harus memberikan ruang dan dukungan agar ia dapat berkembang.</p>
+    <p>Kita tidak hanya berkumpul sebagai satu angkatan, tetapi juga belajar menjadi keluarga yang saling menjaga di tanah rantau. Kekuatan kita bukan hanya terletak pada kebersamaan saat berkumpul, melainkan juga pada kepedulian ketika berjauhan.</p>
+    <p><strong>Mari menjaga nama baik KOMPAS, menghormati adat dan budaya, memperkuat persaudaraan, serta mendukung setiap anggota untuk bertumbuh dan meraih masa depan yang lebih baik.</strong></p>
+  </section>
+</main>
 
-  <main>
-    <section class="hero">
-      <div class="hero-content">
-        <div class="eyebrow">Ruang Cerita · Ruang Gagasan</div>
-
-        <h1>Menjaga Cendrawasih, Menjaga Masa Depan Papua</h1>
-
-        <p>
-          Sebuah ruang diskusi KOMPAS untuk berbagi pandangan,
-          menumbuhkan kepedulian, dan merawat harapan bagi alam
-          serta generasi muda Papua.
-        </p>
-
-        <a class="button" href="#diskusi">Jelajahi Hasil Diskusi</a>
-      </div>
-    </section>
-
-    <section id="tentang">
-      <div class="section-label">Tentang Ruang Ini</div>
-      <h2>Berawal dari Percakapan, Tumbuh Menjadi Kepedulian</h2>
-
-      <p class="intro">
-        Ruang Kopi Kasuari KOMPAS menjadi tempat untuk bertukar
-        pikiran secara terbuka. Melalui diskusi tentang Cendrawasih,
-        kita diajak melihat hubungan antara kekayaan alam Papua,
-        tanggung jawab manusia, dan masa depan generasi berikutnya.
-      </p>
-
-      <div class="quote">
-        “Menjaga alam bukan hanya tentang melindungi hari ini,
-        tetapi juga mewariskan kehidupan untuk esok.”
-      </div>
-    </section>
-
-    <section id="diskusi" class="speakers">
-      <div class="section-label">Suara dalam Diskusi</div>
-      <h2>Gagasan yang Dibagikan</h2>
-
-      <p>
-        Setiap peserta membawa sudut pandang yang berbeda.
-        Bagian ini dapat diisi dengan pendapat asli setiap pembicara.
-      </p>
-
-      <div class="cards">
-        <article class="card">
-          <h3>Milon</h3>
-          <p>Tempat menuliskan pandangan Milon tentang pelestarian Cendrawasih dan alam Papua.</p>
-        </article>
-
-        <article class="card">
-          <h3>Maleo</h3>
-          <p>Tempat merangkum gagasan Maleo mengenai kepedulian lingkungan dan tanggung jawab bersama.</p>
-        </article>
-
-        <article class="card">
-          <h3>Paskalis</h3>
-          <p>Tempat mencatat pandangan Paskalis tentang peran masyarakat dalam menjaga kekayaan alam.</p>
-        </article>
-
-        <article class="card">
-          <h3>Roy</h3>
-          <p>Tempat mencatat pendapat Roy mengenai tindakan nyata yang bisa dilakukan generasi muda.</p>
-        </article>
-
-        <article class="card">
-          <h3>Kakak Nis</h3>
-          <p>Tempat merangkum pesan Kakak Nis tentang kepedulian, edukasi, dan keberlanjutan.</p>
-        </article>
-
-        <article class="card">
-          <h3>Abi</h3>
-          <p>Tempat mencatat sudut pandang Abi tentang menjaga alam sebagai warisan bersama.</p>
-        </article>
-
-        <article class="card">
-          <h3>Temianus</h3>
-          <p>Tempat menuliskan gagasan Temianus tentang masa depan Papua dan pelestarian Cendrawasih.</p>
-        </article>
-
-        <article class="card">
-          <h3>Ekianus — Moderator</h3>
-          <p>Mengarahkan percakapan agar setiap peserta dapat menyampaikan pandangan dan mencari pesan bersama.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="kesimpulan" class="conclusion">
-      <div class="section-label">Hasil Diskusi</div>
-      <h2>Menjaga Cendrawasih adalah Tanggung Jawab Bersama</h2>
-
-      <p>
-        Kekayaan alam Papua perlu dijaga melalui kepedulian,
-        pengetahuan, dan tindakan nyata. Pelestarian tidak cukup
-        hanya menjadi pembicaraan; diperlukan keterlibatan
-        masyarakat dan generasi muda.
-      </p>
-
-      <p>
-        Cendrawasih bukan sekadar simbol keindahan Papua.
-        Keberadaannya mengingatkan kita akan pentingnya menjaga
-        habitat dan keseimbangan alam untuk masa depan.
-      </p>
-
-      <div class="closing">
-        “Papua yang lestari adalah warisan yang kita jaga bersama.”
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>RUANG KOPI KASUARI KOMPAS</p>
-    <p>Ruang diskusi, kepedulian, dan harapan bagi Papua.</p>
-  </footer>
+<footer>
+  <strong>RUANG KOPI KASUARI KOMPAS</strong>
+  <p>Tempat bertukar pikiran, memperkuat persaudaraan, dan membangun kesadaran bersama.</p>
+  <p>Moderator: Ekianus</p>
+</footer>
 </body>
 </html>
